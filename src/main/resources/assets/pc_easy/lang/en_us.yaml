@@ -1,0 +1,37 @@
+pc_easy:
+  commands:
+    whitelist:
+      add:
+        exist: "The player: [ %s ] is existing in the white list."
+        success: "Added the player: [ %s ] to the white list."
+        fail: "Failed to add the player: [ %s ] to the white list."
+      remove:
+        not_exist: "The player: [ %s ] is not existing in the white list."
+        success: "Removed the player: [ %s ] from the white list."
+        fail: "Failed to remove the player: [ %s ] from the white list."
+
+    ban:
+      add:
+        exist: "The player: [ %s ] is existing in the ban list."
+        success: "Added the player: [ %s ] to the ban list."
+        fail: "Failed to add the player: [ %s ] to the ban list."
+      remove:
+        not_exist: "The player: [ %s ] is not existing in the ban list."
+        success: "Removed the player: [ %s ] from the ban list."
+        fail: "Failed to remove the player: [ %s ] from the ban list."
+
+    op:
+      add:
+        exist: "The player: [ %s ] is existing in the op list."
+        success: "Added the player: [ %s ] to the op list."
+        fail: "Failed to add the player: [ %s ] to the op list."
+      remove:
+        not_exist: "The player: [ %s ] is not existing in the op list."
+        success: "Removed the player: [ %s ] from the op list."
+        fail: "Failed to remove the player: [ %s ] from the op list."
+
+    settings:
+      lang:
+        no_exist: "The language: [ %s ] is not existing."
+        set: "Set the language to [ %s ]. Restart to apply the change."
+        get: "The current language is [ %s ]."

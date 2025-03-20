@@ -1,0 +1,36 @@
+pc_easy:
+  commands:
+    whitelist:
+      add:
+        exist: "玩家: 【 %s 】已在白名单中。"
+        success: "已将玩家: 【 %s 】添加到白名单。"
+        fail: "添加玩家: 【 %s 】到白名单失败。"
+      remove:
+        not_exist: "玩家: 【 %s 】不在白名单中。"
+        success: "已将玩家: 【 %s 】从白名单中移除。"
+        fail: "从白名单中移除玩家: 【 %s 】失败。"
+
+    ban:
+      add:
+        exist: "玩家: 【 %s 】已在封禁列表中。"
+        success: "已将玩家: 【 %s 】添加到封禁列表。"
+        fail: "添加玩家: 【 %s 】到封禁列表失败。"
+      remove:
+        not_exist: "玩家: 【 %s 】不在封禁列表中。"
+        success: "已将玩家: 【 %s 】从封禁列表中移除。"
+        fail: "从封禁列表中移除玩家: 【 %s 】失败。"
+
+    op:
+      add:
+        exist: "玩家: 【 %s 】已在管理员列表中。"
+        success: "已将玩家: 【 %s 】添加到管理员列表。"
+        fail: "添加玩家: 【 %s 】到管理员列表失败。"
+      remove:
+        not_exist: "玩家: 【 %s 】不在管理员列表中。"
+        success: "已将玩家: 【 %s 】从管理员列表中移除。"
+        fail: "从管理员列表中移除玩家: 【 %s 】失败。"
+    settings:
+      lang:
+        no_exist: "语言: 【 %s 】不存在。"
+        set: "已设置语言为: 【 %s 】。重启以应用本次更改。"
+        get: "当前语言为: 【 %s 】。"
