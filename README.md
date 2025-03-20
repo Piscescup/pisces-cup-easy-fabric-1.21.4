@@ -29,6 +29,10 @@ It provides some new commands to manage the white list:
 
 ## Usages
 
+You can use the command in the below figure:
+<img src="docs/images/Tips.png">
+
+
 ### Whitelist usages:
 #### Add
 
