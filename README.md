@@ -22,7 +22,10 @@ It provides some new commands to manage the white list:
   * `/pc_easy ban_name add <targets>`: Add the `targets` to the ban list.
   * `/pc_easy ban_name remove <targets>`: Remove the `targets` from the ban list.
 
-- Belows are the `settings` command for the mod
+- Belows are the `setting` command for the mod:
+  * `/pc_easy setting lang`: Change or get the language of the mod.
+    * `/pc_easy setting lang get`: Get the language of the mod.
+    * `/pc_easy setting lang set <lang>`: Set the language of the mod.
 
 ## Usages
 
