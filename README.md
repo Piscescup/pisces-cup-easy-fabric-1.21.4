@@ -2,7 +2,12 @@
 
 ## Description
 
-The mod provides an easy way to manage the white list in Minecraft. The mod can be used in `Server` and `Client`.
+The mod provides an easy way to manage the white list in Minecraft. 
+
+The mod can be used in `Server` side and `Client` side.
+
+But I recommend using the mod on the `Server` side. 
+Otherwise, after restarting the client, any newly added data will overwrite the original data.
 
 You can use the name of the player to add or remove them from the white list, op list.
 
